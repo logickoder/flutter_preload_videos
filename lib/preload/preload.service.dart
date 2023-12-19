@@ -109,7 +109,7 @@ class PreloadService {
     if (state.urls.length > index && index >= 0) {
       await state.controllers[index]!.play();
 
-      log('$_tag playing $index for ${state.urls[index]}');
+      log('$_tag playing $index');
     }
   }
 
